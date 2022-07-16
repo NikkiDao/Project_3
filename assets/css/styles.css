@@ -1,5 +1,4 @@
-
-/* -- styling for html -- */
+/* -- general styling -- */
 body {
   /* Positioning */
   margin-bottom: 150px;
@@ -9,15 +8,6 @@ body {
 
   /* Visual */
   background-color: #ededed;
-}
-
-/* Media query for body */
-@media only screen and (max-width: 767px) {
-  /* Set background color to white on small screens */
-  body {
-    /* Visual */
-    background-color: #fff;
-  }
 }
 
 /* -- styling for nav -- */
@@ -98,7 +88,7 @@ body {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #8b1ac0;
 }
 
 .description-content {
@@ -172,7 +162,7 @@ body {
   /* Typography */
   font-size: 25px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #8b1ac0;
 }
 
 .imageNav-photo {
@@ -189,7 +179,7 @@ body {
 
 .imageNav-photo.active {
   /* Visuals */
-  border: 2px solid #4aaaa5;
+  border: 2px solid #8b1ac0;
 }
 
 #images {
@@ -213,19 +203,18 @@ body {
   /* Typography */
   font-size: 20px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #8b1ac0;
   text-align: center;
 }
 
 /* -- styling for footer -- */
 .footer {
   /* Positioning */
-  position: absolute;
   bottom: 0;
 
   /* Box-model */
   width: 100%;
-  height: 60px;
+  height: 100px;
   margin-top: 30px;
 
   /* Visual */
@@ -246,5 +235,14 @@ body {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #8b1ac0;
 }
+
+table, th, td {
+  border-style:solid;
+  border-color: #000000;
+  table-layout:fixed
+}
+
+td{text-align: center;} 
+tr:hover {background-color: #D6EEEE;}

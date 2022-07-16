@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Streaming Services</title>
 
-<style>
-    table, th, td {
-        border-style:solid;
-        border-color: #000000;
-        table-layout:fixed
-    }
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
-    td{text-align: center;} 
-    tr:hover {background-color: #D6EEEE;}
-
-    </style>
-    <body>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="col-xs-9 phone-nav">
+                <a class="navbar-brand" href="../index.html" id="logo">Streaming</a>
+              </div>
+            </div>
+  
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                   <li><a href="">Netflix</a></li>
+                    <li><a href="">Amazon Prime</a></li>
+                    <li><a href="">Disney Plus</a></li>
+                    <li><a href="">Hulu</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Viewership</a></li>
+                <li><a href="prices.html">Price Comparison</a></li>
+                <li><a href="">Data</a></li>
+              </ul>
+            </div>
+        </div>
+    </nav>
     
     <h2>Netflix Subscription Options</h2>
     
@@ -281,6 +311,22 @@
         </tr>
         
     </table>
+    <!-- footer -->
+    <footer class="footer navbar">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+          &copy; Copyright Netflix, Amazon, Disney, Hulu
+        </p>
+        <p class="text-muted text-muted-footer text-center">
+          Project brought to you by Nikki, Alex, Rebecca, Yuntian, Ray, Laurane
+        </p>
+    </footer>
+  
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </body>
 
