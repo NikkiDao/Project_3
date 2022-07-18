@@ -1,63 +1,58 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Streaming Titles</title>
+    <title>Streaming Services</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-
-  </head>
-
-  <body>
-    <!-- Start of navbar -->
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+</head>
+<body>
+    <!-- navbar -->
     <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
-
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="index.html" id="logo">Main Page</a>
+        <div class="container-fluid navbar-custom">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="col-xs-9 phone-nav">
+                <a class="navbar-brand" href="../index.html" id="logo">Streaming</a>
+              </div>
             </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Streaming Titles Data <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="netflix_data.html">NetFlix</a></li>
-                  <li><a href="prime_video_data.html">Prime Video</a></li>
-                  <li><a href="disney_plus_data.html">Disney+</a></li>
-                  <li><a href="Hulu.html">Hulu</a></li>
-                </ul>
-              </li>
-              <li><a href="cost_comparison.html">Cost Comparison</a></li>
-              <li><a href="subcribers_location.html">Subcribers Location</a></li>
-              <li><a href="data.html">Services</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+  
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+                    <li><a href="https://www.amazon.com/Prime-Video/b?node=2676882011"target="_blank">Amazon Prime</a></li>
+                    <li><a href="https://www.disneyplus.com"target="_blank">Disney+</a></li>
+                    <li><a href="https://www.hulu.com/welcome"target="_blank">Hulu</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Viewership</a></li>
+                <li><a href="prices.html">Price Comparison</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="netflix_data.html" target="_blank">Netflix</a></li>
+                    <li><a href="prime_video_data.html"target="_blank">Amazon Prime</a></li>
+                    <li><a href="disney_plus_data.html"target="_blank">Disney+</a></li>
+                    <li><a href="hulu_data.html"target="_blank">Hulu</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
         </div>
-      </div><!-- /.container-fluid -->
     </nav>
-    <!-- End of navbar -->
 
-    <!-- Start of container -->
+    <!-- table -->
     <div class="container">
       <article class="description-content row">
         <div class="col-xs-12">
@@ -43110,3 +43105,23 @@
                           </tr>
                         </tbody>
                       </table>
+                    </table>
+
+<!-- footer -->
+<footer class="footer navbar">
+  <div class="two-toned-footer-color"></div>
+  <p class="text-muted text-muted-footer text-center">
+    &copy; Copyright Netflix, Amazon, Disney, Hulu
+  </p>
+  <p class="text-muted text-muted-footer text-center">
+    Project brought to you by Nikki, Alex, Rebecca, Yuntian, Ray, Laurane
+  </p>
+</footer>
+
+<!-- jQuery CDN -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
