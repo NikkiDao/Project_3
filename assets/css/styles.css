@@ -8,6 +8,8 @@ body {
 
   /* Visual */
   background-color: #ededed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .center {
@@ -123,13 +125,16 @@ body {
   padding-bottom: 20px;
 }
 
-
-
 .img-fluid {
   float: left;
   padding-top: 50px;
   max-width: 100%;
   height: auto;
+}
+
+.img-logo {
+  max-width: 100%;
+  height: 100;
 }
 
 /* Description content media query */
@@ -143,14 +148,6 @@ body {
     /* Positioning */
     margin-top: 0;
   }
-}
-
-#images {
-  /* Box-model */
-  padding-top: 15px;
-
-  /* Typography */
-  text-align: center;
 }
 
 /* -- other page styling -- */
@@ -169,6 +166,7 @@ body {
   color: #8b1ac0;
   text-align: center;
 }
+
 
 /* -- styling for footer -- */
 .footer {
