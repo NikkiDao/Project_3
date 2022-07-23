@@ -21,7 +21,7 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="col-xs-9 phone-nav">
+            <div class="col-xs-12 phone-nav">
               <a class="navbar-brand" href="#" id="logo">Streaming Services</a>
             </div>
           </div>
@@ -32,9 +32,9 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                  <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
-                 <li><a href="https://www.amazon.com/Prime-Video/b?node=2676882011"target="_blank">Amazon Prime</a></li>
-                 <li><a href="https://www.disneyplus.com"target="_blank">Disney+</a></li>
-                 <li><a href="https://www.hulu.com/welcome"target="_blank">Hulu</a></li>
+                 <li><a href="https://www.amazon.com/Prime-Video/b?node=2676882011" target="_blank">Amazon Prime</a></li>
+                 <li><a href="https://www.disneyplus.com" target="_blank">Disney+</a></li>
+                 <li><a href="https://www.hulu.com/welcome" target="_blank">Hulu</a></li>
                 </ul>
               </li>
               <li><a href="">Viewership</a></li>
@@ -42,10 +42,10 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="Visualizations/netflix_data.html" target="_blank">Netflix</a></li>
-                  <li><a href="Visualizations/prime_video_data.html"target="_blank">Amazon Prime</a></li>
-                  <li><a href="Visualizations/disney_plus_data.html"target="_blank">Disney+</a></li>
-                  <li><a href="Visualizations/hulu_data.html"target="_blank">Hulu</a></li>
+                  <li><a href="Visualizations/netflix_data.html">Netflix</a></li>
+                  <li><a href="Visualizations/prime_video_data.html">Amazon Prime</a></li>
+                  <li><a href="Visualizations/disney_plus_data.html">Disney+</a></li>
+                  <li><a href="Visualizations/hulu_data.html">Hulu</a></li>
                 </ul>
               </li>
             </ul>
@@ -53,15 +53,23 @@
       </div>
     </nav>
 
+    <!-- search bar -->
+    <div class="container">
+      <form action="https://www.google.com/search" method="get" class="search-bar">
+          <input type="text" placeholder="Search for a show or movie..." name="q">
+          <button type="submit"><img src="./resources/images/search.png"></button>
+      </form>
+    </div>
+
     <!-- containers -->
     <div class="container-fluid jumbotron" style="background-image: url('Images/streamingsamples_wp-content_uploads_getty-images_2021_03_1188919791.jpeg');">
       <section class="row">
         <div class="col-md-12" >
           <article class="description-content">
-            <h2 class="description-header text-center">Your resource for finding the right streaming option</h2>
+            <h2 class="description-header text-center">Your resource for finding the right streaming option!</h2>
             <hr class="description-hr"/>
-            <p>With so many shows and movies to watch, and so many ways to watch them, how do you start?</p>
-            <p>This site will show you what the most popular streaming services will offer, who is using them, and how much it will cost to start using them.</p>
+            <p class="text-center">With so many shows and movies to watch, and so many ways to watch them, how do you start?</p>
+            <p class="text-center">This site will show you what the most popular streaming services will offer, who is using them, and how much it will cost to start using them.</p>
           </article>
         </div>
       </section>
@@ -97,7 +105,7 @@
       <p class="text-muted text-muted-footer text-center">
         Project brought to you by Nikki, Alex, Rebecca, Yuntian, Ray, Laurane
       </p>
-      <a href="https://github.com/NikkiDao/Project_3" target="_blank">GitHub link</a>
+      <p class="text-center"><a href="https://github.com/NikkiDao/Project_3" target="_blank">GitHub link</a></p>
     </footer>
 
     <!-- jQuery CDN -->
