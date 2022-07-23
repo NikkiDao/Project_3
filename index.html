@@ -1,117 +1,126 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Streaming Services</title>
 
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Streaming Services</title>
 
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-  </head>
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
 
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Streaming Services</a>
-            </div>
-          </div>
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+</head>
 
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                 <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
-                 <li><a href="https://www.amazon.com/Prime-Video/b?node=2676882011" target="_blank">Amazon Prime</a></li>
-                 <li><a href="https://www.disneyplus.com" target="_blank">Disney+</a></li>
-                 <li><a href="https://www.hulu.com/welcome" target="_blank">Hulu</a></li>
-                </ul>
-              </li>
-              <li><a href="Visualizations/map.html">Viewership</a></li>
-              <li><a href="Visualizations/prices.html">Price Comparison</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Data<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="Visualizations/netflix_data.html">Netflix</a></li>
-                  <li><a href="Visualizations/prime_video_data.html">Amazon Prime</a></li>
-                  <li><a href="Visualizations/disney_plus_data.html">Disney+</a></li>
-                  <li><a href="Visualizations/hulu_data.html">Hulu</a></li>
-                </ul>
-              </li>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-xs-12 phone-nav">
+          <a class="navbar-brand" href="#" id="logo">Streaming Services</a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-right-custom">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Services<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+              <li><a href="https://www.amazon.com/Prime-Video/b?node=2676882011" target="_blank">Amazon Prime</a></li>
+              <li><a href="https://www.disneyplus.com" target="_blank">Disney+</a></li>
+              <li><a href="https://www.hulu.com/welcome" target="_blank">Hulu</a></li>
             </ul>
-          </div>
-      </div>
-    </nav>
-
-    <!-- search bar -->
-    <div class="container">
-      <form action="https://www.google.com/search" method="get" class="search-bar">
-          <input type="text" placeholder="Search for a show or movie..." name="q">
-          <button type="submit"><img src="./resources/images/search.png"></button>
-      </form>
-    </div>
-
-    <!-- containers -->
-    <div class="container-fluid jumbotron" style="background-image: url('Images/streamingsamples_wp-content_uploads_getty-images_2021_03_1188919791.jpeg');">
-      <section class="row">
-        <div class="col-md-12" >
-          <article class="description-content">
-            <h2 class="description-header text-center">Your resource for finding the right streaming option!</h2>
-            <hr class="description-hr"/>
-            <p class="text-center">With so many shows and movies to watch, and so many ways to watch them, how do you start?</p>
-            <p class="text-center">This site will show you what the most popular streaming services will offer, who is using them, and how much it will cost to start using them.</p>
-          </article>
-        </div>
-      </section>
-    </div>
-
-    <div class="logo">
-      <div class="row">
-        <div class="col-xs-6">
-          <a href="https://www.netflix.com" target="_blank"><img src="Images/logo1_ntfx.jpg" class="img-logo"></a>
-        </div>
-        <div class="col-xs-6">
-          <a href="https://www.amazon.com/Prime-Video/b?node=2676882011" target="_blank"><img src="Images/logo2_amzn.png" class="img-logo"></a>
-        </div>
+          </li>
+          <li><a href="Visualizations/map.html">Viewership</a></li>
+          <li><a href="Visualizations/prices.html">Price Comparison</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Data<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Visualizations/netflix_data.html">Netflix</a></li>
+              <li><a href="Visualizations/prime_video_data.html">Amazon Prime</a></li>
+              <li><a href="Visualizations/disney_plus_data.html">Disney+</a></li>
+              <li><a href="Visualizations/hulu_data.html">Hulu</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="logo">
-      <div class="row">
-        <div class="col-xs-6">
-          <a href="https://www.disneyplus.com" target="_blank"><img src="Images/logo3_dsny.jpg" class="img-logo"></a>
-        </div>
-        <div class="col-xs-6">
-          <a href="https://www.hulu.com/welcome" target="_blank"><img src="Images/logo4_hulu.png" class="img-logo"></a>
-        </div>
+  </nav>
+
+  <!-- search bar -->
+  <div class="container">
+    <form action="https://www.google.com/search" method="get" class="search-bar">
+      <input type="text" placeholder="Search for a show or movie..." name="q">
+      <button type="submit"><img src="./Images/search.png"></button>
+    </form>
+  </div>
+
+  <!-- containers -->
+  <div class="container-fluid jumbotron"
+    style="background-image: url('Images/streamingsamples_wp-content_uploads_getty-images_2021_03_1188919791.jpeg');">
+    <section class="row">
+      <div class="col-md-12">
+        <article class="description-content">
+          <h2 class="description-header text-center">Your resource for finding the right streaming option!</h2>
+          <hr class="description-hr" />
+          <p class="text-center">With so many shows and movies to watch, and so many ways to watch them, how do you
+            start?</p>
+          <p class="text-center">This site will show you what the most popular streaming services will offer, who is
+            using them, and how much it will cost to start using them.</p>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <div class="logo">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="https://www.netflix.com" target="_blank"><img src="Images/logo1_ntfx.jpg" class="img-logo"></a>
+      </div>
+      <div class="col-xs-6">
+        <a href="https://www.amazon.com/Prime-Video/b?node=2676882011" target="_blank"><img src="Images/logo2_amzn.png"
+            class="img-logo"></a>
       </div>
     </div>
+  </div>
+  <div class="logo">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="https://www.disneyplus.com" target="_blank"><img src="Images/logo3_dsny.jpg" class="img-logo"></a>
+      </div>
+      <div class="col-xs-6">
+        <a href="https://www.hulu.com/welcome" target="_blank"><img src="Images/logo4_hulu.png" class="img-logo"></a>
+      </div>
+    </div>
+  </div>
 
-    <!-- footer -->
-    <footer class="footer navbar">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright Netflix, Amazon, Disney, Hulu
-      </p>
-      <p class="text-muted text-muted-footer text-center">
-        Project brought to you by Nikki, Alex, Rebecca, Yuntian, Ray, Laurane
-      </p>
-      <p class="text-center"><a href="https://github.com/NikkiDao/Project_3" target="_blank">GitHub link</a></p>
-    </footer>
+  <!-- footer -->
+  <footer class="footer navbar">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright Netflix, Amazon, Disney, Hulu
+    </p>
+    <p class="text-muted text-muted-footer text-center">
+      Project brought to you by Nikki, Alex, Rebecca, Yuntian, Ray, Laurane
+    </p>
+    <p class="text-center"><a href="https://github.com/NikkiDao/Project_3" target="_blank">GitHub link</a></p>
+  </footer>
 
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  </body>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
 </html>
