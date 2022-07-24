@@ -5,7 +5,7 @@
 * Laurane Gerber
 * Alex Riska
 * Rebecca Watson
-* Yuntain Xue
+* Yuntian Xue
 * Ray Yoon
 
 ## Project Goal: 
